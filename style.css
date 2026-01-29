@@ -39,6 +39,8 @@ h1 {
 h1,
 .heading-dark {
   color: var(--color-dark-slate);
+  margin-inline-start: 2rem;
+  margin-inline-end: 2rem;
 }
 h2 {
   margin-block-end: 2rem;
@@ -62,7 +64,7 @@ p {
 footer {
   background:
     linear-gradient(var(--color-teal-overlay), var(--color-teal-overlay)),
-    url("./starter-code/assets/mobile/image-footer.jpg") center/cover no-repeat;
+    url("./assets/mobile/image-footer.jpg") center/cover no-repeat;
   width: 100vw;
   margin: 0 -2rem -2rem -2rem;
   padding: 4rem 2rem;
@@ -99,6 +101,8 @@ footer {
   gap: 1rem;
   margin-block-start: 4rem;
   margin-block-end: 4rem;
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
 }
 .middle-section img {
   width: 100%;
@@ -145,6 +149,8 @@ footer {
   font-size: 1.125rem;
   line-height: 1.4;
   letter-spacing: 0;
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
 }
 
 .description-dark {
@@ -195,6 +201,8 @@ footer {
   .middle-section {
     grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
+    padding-inline-start: 40px;
+    padding-inline-end: 40px;
   }
 
   .description {
@@ -205,8 +213,7 @@ footer {
   footer {
     background:
       linear-gradient(var(--color-teal-overlay), var(--color-teal-overlay)),
-      url("./starter-code/assets/tablet/image-footer.jpg") center/cover
-        no-repeat;
+      url("./assets/tablet/image-footer.jpg") center/cover no-repeat;
     width: 100vw;
     margin: 0 -2rem -2rem -2rem;
     padding: 6rem 2rem;
@@ -219,8 +226,7 @@ footer {
   footer {
     background:
       linear-gradient(var(--color-teal-overlay), var(--color-teal-overlay)),
-      url("./starter-code/assets/desktop/image-footer.jpg") center/cover
-        no-repeat;
+      url("./assets/desktop/image-footer.jpg") center/cover no-repeat;
     padding: 8rem 2rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
